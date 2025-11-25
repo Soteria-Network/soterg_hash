@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "soteria_soterg_hash"
+version = "1.0.0"
+description = "Python 3 bindings for SoterG hashing PoW"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    {name = "random.zebra"},
+]
+maintainers = [
+    {name = "The Soteria Core Developers"},
+]
+keywords = ["soterg", "hash", "cryptocurrency", "pow"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security :: Cryptography",
+]
+
+[project.urls]
+Homepage = "https://github.com/Soteria-Network/soterg_hash"
+"Bug Tracker" = "https://github.com/Soteria-Network/soterg_hash/issues"
+"Source Code" = "https://github.com/Soteria-Network/soterg_hash"
+
+[tool.setuptools]
+py-modules = []
+packages = []
