@@ -1,7 +1,7 @@
 #ifndef SOTERG_H
 #define SOTERG_H
 
-#define TIME_MASK 0xffffff80
+#define TIME_MASK 0xFFFFFFA0  // 96s bitmask
 
 #ifdef __cplusplus
 extern "C" {
